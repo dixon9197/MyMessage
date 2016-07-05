@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import <MessageUI/MessageUI.h>
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,MFMessageComposeViewControllerDelegate,UINavigationControllerDelegate>
+{
+    IBOutlet UITableView *tv;
+}
 
 @end
 

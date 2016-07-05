@@ -1,0 +1,48 @@
+PODS:
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - SSZipArchive (0.4.0)
+  - XlsxReaderWriter (1.0.11):
+    - SSZipArchive (~> 0.4)
+    - XMLDictionary (~> 1.4)
+  - XMLDictionary (1.4)
+
+DEPENDENCIES:
+  - MRProgress
+  - XlsxReaderWriter (~> 1.0.11)
+
+SPEC CHECKSUMS:
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  SSZipArchive: d3d66fc0e3fb6ac0f723d95481aae71aae916cc3
+  XlsxReaderWriter: 7e4c5c9fb7c4e78e4edc89fa11f50c086540277c
+  XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
+
+PODFILE CHECKSUM: 8b9eb2986b3d4ef42c06c0f9d28b868e54c13ba6
+
+COCOAPODS: 1.0.0
