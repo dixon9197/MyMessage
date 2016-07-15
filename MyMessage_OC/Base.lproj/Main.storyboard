@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -46,30 +45,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="z2M-aP-dUf">
-                        <leftBarButtonItems>
-                            <barButtonItem title="全选" id="c72-Jb-GOI">
-                                <connections>
-                                    <action selector="selectAll:" destination="BYZ-38-t0r" id="OkU-wl-Ilb"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="导入" id="znG-1s-tm2">
-                                <connections>
-                                    <action selector="importXLSXFile:" destination="BYZ-38-t0r" id="UC5-HI-gkj"/>
-                                </connections>
-                            </barButtonItem>
-                        </leftBarButtonItems>
-                        <rightBarButtonItems>
-                            <barButtonItem title="发送" id="2zv-jG-1pY">
-                                <connections>
-                                    <action selector="send:" destination="BYZ-38-t0r" id="0jQ-FV-1Sp"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="添加" id="qlj-EO-INl">
-                                <connections>
-                                    <action selector="add:" destination="BYZ-38-t0r" id="JKS-O5-a0b"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                        <barButtonItem key="leftBarButtonItem" title="更多" id="c72-Jb-GOI">
+                            <connections>
+                                <action selector="moreOption:" destination="BYZ-38-t0r" id="yHm-A6-4av"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="发送" id="2zv-jG-1pY">
+                            <connections>
+                                <action selector="send:" destination="BYZ-38-t0r" id="0jQ-FV-1Sp"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tv" destination="rBq-Mk-TtN" id="D0z-ji-5tt"/>
